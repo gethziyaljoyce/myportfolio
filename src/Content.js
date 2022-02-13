@@ -20,12 +20,12 @@ const contentCard = [
         },
         {
         id: 3,
-        title: ' Memories Application',
-        body: "A memories Application: Featuring, Adding image with title and tags. Allowed edit and delete operations,images are stored as a base64 format in the database. User can add image with tag and title.",
-        image: 'memories',
-        tech: `REACT  NODE  EXPRESSJS  MONGODB`,
-        linkgithub:'https://github.com/gethziyaljoyce/memories-project.git',
-        linkdemo: 'https://joyce-memories-app.netlify.app/'
+        title: ' Document editor Application',
+        body: "This is a document editor. Its features: Heading  with sizes, font types, lists, text with bold, Italicize, underlined, text color, highlighting text, super and sub scripts option and with spell check.",
+        image: 'googleDoc',
+        tech: `REACT  NODE  EXPRESSJS  MONGODB  SOCKET IO`,
+        linkgithub:'https://github.com/gethziyaljoyce/google-document-clone.git',
+        linkdemo: 'https://joyce-google-document-clone.netlify.app/'
         },
         {
         id: 4,

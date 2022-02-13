@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { FiGithub } from 'react-icons/fi';
 import { BsBoxArrowUpRight } from 'react-icons/bs';
 import ecomImg from '../media/ecommerce.png';
-import memImg from '../media/memories.PNG';
+import gooImg from '../media/google-doc.PNG';
 import refImg from '../media/referal-link.PNG';
 import videoImg from '../media/video-chat-app.PNG';
 import wpcImg from '../media/wpc.PNG';
@@ -13,8 +13,8 @@ const Card = ({ item: { title, body, image, tech, linkgithub, linkdemo } }) => {
     let imgData = { image };
     if (imgData.image === 'ecommerce') {
         imgUrl = ecomImg;
-    } else if (imgData.image === 'memories') {
-        imgUrl = memImg;
+    } else if (imgData.image === 'googleDoc') {
+        imgUrl = gooImg;
     } else if (imgData.image === 'referal') {
         imgUrl = refImg;
     } else if (imgData.image === 'video') {
@@ -26,7 +26,7 @@ const Card = ({ item: { title, body, image, tech, linkgithub, linkdemo } }) => {
         <>
             <CardContainer data-aos="zoom-in">
                 <div>
-                    <img src={imgUrl}></img>
+                    <img src={imgUrl} alt="project images"></img>
                 </div>
                 <CardContent>
                     <Flex>

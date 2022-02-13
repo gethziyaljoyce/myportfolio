@@ -13,7 +13,7 @@ const Resume = () => {
     return (
         <Div data-aos="fade-up" data-aos-delay="300">
             <A className="resume"
-                onClick={() => window.open("https://drive.google.com/file/d/1katIQTsip47D3xpm3YC5swvSv3eHWSCc/view?usp=sharing")} 
+                onClick={() => window.open("https://drive.google.com/file/d/15jQqa8kHtpQCWMbxvdEOEE3YPkr6Z6hS/view?usp=sharing")} 
                 target = "_blank" 
                 >Resume
             </A>

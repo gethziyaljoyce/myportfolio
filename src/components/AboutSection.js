@@ -104,36 +104,7 @@ const StyledA = styled.a `
     font-weight: 900;
     font-family: 'Lato', sans-serif;
 `
-const Img = styled.img`
-    width: 40vh;
-    height: 40vh;
-    margin-right: 5rem;
-    margin-top: 7rem;
-    position: relative;
-    border-radius: 50%; 
-    overflow: hidden;
-    object-fit: cover;
-    box-shadow: 1px 3px 32px -4px black;
-    @media (max-width: 1024px){
-        width: 20vh;
-        height: 20vh;
-    } 
-@media (max-width: 768px){
-    display: none;
-    } 
-@media (max-width: 480px){
-    display: none; 
-    }
-`
-const DivConn = styled.div`
-@media (max-width: 768px){
-    display: none;
-    } 
-@media (max-width: 480px){
-    display: none; 
-    }
 
-`
 const BigText = styled.div `
     /* overflow: hidden; */
     text-shadow: 0 15px 7px #081730; 

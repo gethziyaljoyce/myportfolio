@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { NavHashLink as Link } from "react-router-hash-link";
 import ScrollIntoView from 'react-scroll-into-view';
 import { motion } from 'framer-motion';
-import { BsBoxArrowInUpRight } from 'react-icons/bs';
+// import { BsBoxArrowInUpRight } from 'react-icons/bs';
 
 const SideNav = (props) => {
     const { open, setOpen } = props;
