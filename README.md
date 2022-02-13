@@ -1,6 +1,4 @@
- 
-<br />
-#deployed site <br /><br />
-Clickhere https://portfolio-gethziyaljoyce.netlify.app/
+# google-document-clone
 
+## [Click Here](https://portfolio-gethziyaljoyce.netlify.app) to view the deployed site.
 
